@@ -4,6 +4,12 @@ using UsbDeviceLib.Model;
 
 namespace UsbDeviceLib
 {
+    /// <summary>
+    /// Provides utilities for extracting and formatting information about USB drives connected to a Windows system.
+    /// This class includes methods for retrieving detailed device information, formatting that information into readable strings,
+    /// and serializing the information to JSON format. It serves as a helper class for applications that need to manage or display
+    /// data about USB storage devices.
+    /// </summary>
     public static class UsbDriveUtilities
     {
         /// <summary>
